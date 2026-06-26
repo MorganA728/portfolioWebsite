@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Professional portfolio website for engineering, software, and project work." />
-  <title>Your Name | Portfolio</title>
+  <title>Morgan Andre | Portfolio</title>
 
   <!-- Main stylesheet -->
   <link rel="stylesheet" href="styles.css" />
@@ -54,7 +54,7 @@
         </p>
 
         <div class="hero-buttons">
-            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#projects" class="btn btn-primary">View Featured Work</a>
             <a href="#contact" class="btn btn-secondary">Contact Me</a>
         </div>
     </div>
@@ -86,25 +86,53 @@
     <section id="skills" class="section alt-section">
       <div class="container">
         <p class="section-label">Skills</p>
-        <h2>Technical skills</h2>
+        <h2>Technical areas and tools I have experience with:</h2>
 
         <div class="skills-grid">
           <div class="skill-card">
-            <h3>Programming</h3>
-            <p>Python, Java, C++, C#, JavaScript, HTML, CSS, MATLAB</p>
-          </div>
-          <div class="skill-card">
             <h3>Engineering Tools</h3>
-            <p>MATLAB, Simulink, OpenFOAM, CAD tools, numerical methods, optimization</p>
+            <ul>
+              <li>MATLAB & Simulink</li>
+              <li>Git & GitHub</li>
+              <li>Solidworks</li>
+              <li>Tecplot</li>
+              <li>Ansys Workbench (Mechanical, Fluent)</li>
+              <li>OpenFOAM</li>
+              <li>HPC (High Performance Computing)</li>
+            </ul>
+            <p>See my featured coursework for more detail.</p>
           </div>
           <div class="skill-card">
-            <h3>Software & Web</h3>
-            <p>Frontend development, APIs, Git/GitHub, data visualization, responsive design</p>
+            <h3>Programming</h3>
+            <ul>
+              <li>Python</li>
+              <li>MATLAB</li>
+              <li>C</li>
+              <li>Bash (Bourne-Again SHell) scripting</li>
+            </ul>
           </div>
           <div class="skill-card">
             <h3>Prototyping</h3>
-            <p>Embedded systems, sensors, computer vision, UI overlays, hardware/software integration</p>
+            <ul>
+              <li>3D Printing</li>
+              <li>Sensors</li>
+              <li>Embedded hardware (microcontollers, stepped drivers...)</li>
+              <li>Soldering & Crimping</li>
+              <li>Drafting</li>
+              <li>GD&T</li>
+              <li>Machining & Assembly</li>
+            </ul>
+            <p>See my projects for more detail.</p>
           </div>
+          <div class="skill-card">
+            <h3>Engineering Laboratory & Testing</h3>
+            <ul>
+              <li>Wind Tunnel Testing</li>
+              <li>Flow Visualization and Measurement</li>
+              <li>Mechanical Testing</li>
+              <li>Non-Destructive Testing</li>
+            </ul>
+            <p>See my featured coursework for more detail.</p>
         </div>
       </div>
     </section>
@@ -117,76 +145,65 @@
             <p class="section-label">Projects</p>
             <h2>Featured work</h2>
           </div>
-          <a class="text-link" href="https://github.com/yourusername" target="_blank">GitHub →</a>
         </div>
 
-        <div class="projects-grid">
+          <div class="projects-grid">
           <article class="project-card">
             <div class="project-topline">
-              <span class="tag">Computer Vision</span>
+              <span class="tag">Systems Engineering</span>
+              <span class="tag">C, Git, Linux</span>
+              <span class="tag">Embedded Hardware</span>
+              
+            </div>
+            <h3>NASA HASP CubeSat Simulator</h3>
+            <p>
+              Systems engineering lead for Iowa State University’s CySat CubeSat program, developing a high-altitude CubeSat simulator flown through NASA’s HASP program as a predecessor to space-grade flight hardware.
+            </p>
+            <ul>
+              <li>Led system-level architecture, integration planning, and hardware/software interface definition</li>
+              <li>Developed a CubeSat simulator to validate mission concepts, subsystem behavior, and flight-readiness workflows</li>
+              <li>Supported testing for high-altitude balloon flight conditions as a risk-reduction step toward space-grade hardware</li>
+            </ul>
+            <a class="project-link" href="#">Add project link →</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-topline">
+              <span class="tag">Aerodynamics</span>
+              <span class="tag">ANSYS Fluent</span>
+              <span class="tag">Wind Tunnel Testing</span>
+            </div>
+            <h3>SAE Aero Aerodynamic Analysis</h3>
+            <p>
+              Aerodynamics team member for Iowa State University’s SAE Aero team, performing CFD analysis and wind tunnel correlation studies to support aircraft design decisions.
+            </p>
+            <ul>
+              <li>Modeled aircraft components and flow behavior using ANSYS Fluent CFD simulations</li>
+              <li>Conducted correlation studies utilizing ISU wind tunnels to evaluate aerodynamic performance and compared that to simulation results</li>
+              <li>Supported design iteration through lift, drag, pressure, and flow-field analysis</li>
+            </ul>
+            <a class="project-link" href="#">Add project link →</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-topline">
+              <span class="tag">Aerothermal Dynamics</span>
+              <span class="tag">Flow Visualization</span>
               <span class="tag">Python</span>
-            </div>
-            <h3>Gesture-Based Computer Control</h3>
-            <p>
-              Webcam-based interface using hand landmarks to control mouse and keyboard actions through gestures.
-            </p>
-            <ul>
-              <li>MediaPipe hand tracking and gesture classification</li>
-              <li>PySide6 overlay for user feedback</li>
-              <li>Mouse movement, click, scroll, drag, and custom gesture support</li>
-            </ul>
-            <a class="project-link" href="#">Add project link →</a>
-          </article>
+              <span class="tag">Tecplot</span>
 
-          <article class="project-card">
-            <div class="project-topline">
-              <span class="tag">Unity</span>
-              <span class="tag">C#</span>
             </div>
-            <h3>Interactive 3D Cube Rotation System</h3>
+            <h3>Experimental Flow Mechanics & Heat Transfer</h3>
             <p>
-              Unity project involving slice selection, parent pivot rotation, and object hierarchy management.
+              Graduate-level laboratory focused on advanced experimental methods for flow visualization, fluid characterization, and engineering data analysis.
             </p>
             <ul>
-              <li>Mouse input and raycast-based interaction</li>
-              <li>90-degree slice rotation logic</li>
-              <li>Reusable prefab-based architecture</li>
+              <li>Applied advanced flow visualization and measurement techniques to characterize fluid behavior and heat transfer phenomena</li>
+              <li>Analyzed experimental data to extract trends, compare theory with measured results, and quantify system behavior</li>
+              <li>Presented findings through formal lab reports emphasizing methodology, uncertainty, results, and engineering interpretation</li>
             </ul>
-            <a class="project-link" href="#">Add project link →</a>
+            <a class="project-link" href="#">Add report/sample link →</a>
           </article>
-
-          <article class="project-card">
-            <div class="project-topline">
-              <span class="tag">Aerospace</span>
-              <span class="tag">CFD</span>
-            </div>
-            <h3>Airfoil and CFD Analysis</h3>
-            <p>
-              Aerodynamic analysis workflows for coefficient extraction, airfoil data processing, and simulation setup.
-            </p>
-            <ul>
-              <li>Pressure coefficient processing</li>
-              <li>Lift, drag, and moment coefficient estimation</li>
-              <li>OpenFOAM mesh/debugging workflow</li>
-            </ul>
-            <a class="project-link" href="#">Add project link →</a>
-          </article>
-
-          <article class="project-card">
-            <div class="project-topline">
-              <span class="tag">Full Stack</span>
-              <span class="tag">Java</span>
-            </div>
-            <h3>Social App Backend and Chat System</h3>
-            <p>
-              App features including posts, comments, likes, WebSocket chat, moderation tools, and profile integration.
-            </p>
-            <ul>
-              <li>REST-style backend features</li>
-              <li>WebSocket messaging</li>
-              <li>Admin moderation workflow</li>
-            </ul>
-            <a class="project-link" href="#">Add project link →</a>
           </article>
         </div>
       </div>
@@ -195,30 +212,29 @@
     <!-- Experience Section -->
     <section id="experience" class="section alt-section">
       <div class="container">
-        <p class="section-label">Experience</p>
-        <h2>Experience and education</h2>
+        <p class="section-label"></p>
+        <h2>Experience, Education, and Programs</h2>
 
         <div class="timeline">
           <div class="timeline-item">
-            <div class="timeline-date">2026</div>
+            <div class="timeline-date">2022 - 2026 at Iowa State University of Science and Technology</div>
             <div class="timeline-content">
-              <h3>Aerospace Engineering Student</h3>
-              <p>Iowa State University</p>
+              <h3>Aerospace Engineering, Bachelors of Science </h3>
               <p>
-                Coursework and projects in aerospace systems, controls, numerical methods, optimization,
-                software development, and engineering analysis.
+                Relevant coursework in fluid dynamics, aerodynamics, thermodynamics, flight structures, 
+                mechanics of materials, aerospace systems, flight dynamics and controls, spacecraft dynamics and control, 
+                numerical methods, optimization, and software development.
               </p>
             </div>
           </div>
 
           <div class="timeline-item">
-            <div class="timeline-date">Project</div>
+            <div class="timeline-date">May - August 2026 at Aerostar: Aerospace and Defense</div>
             <div class="timeline-content">
-              <h3>Senior Design Prototype</h3>
-              <p>Gesture-Based Computer Control System</p>
+              <h3>Payload Integration and Systems Engineer Intern</h3>
+              <p>Description</p>
               <p>
-                Collaborating on a webcam-based accessibility and control interface with a focus on usability,
-                accuracy, modular architecture, and testing.
+                
               </p>
             </div>
           </div>
@@ -258,7 +274,7 @@
 
   <footer class="footer">
     <div class="container footer-content">
-      <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+      <p>© <span id="year"></span> Morgan Andre. All rights reserved.</p>
       <a href="#home">Back to top ↑</a>
     </div>
   </footer>
